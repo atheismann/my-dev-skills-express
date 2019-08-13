@@ -6,7 +6,11 @@ const skills = [
 ];
 
 module.exports = {
-
+  getOne,
+  getAll,
+  create,
+  deleteOne,
+  update,
 };
 
 function getOne(id){
